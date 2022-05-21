@@ -1,5 +1,11 @@
-h1 {
-    font-size: large;
+
+body{
+    height: 100vh;
+}
+
+#alligner{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container {
