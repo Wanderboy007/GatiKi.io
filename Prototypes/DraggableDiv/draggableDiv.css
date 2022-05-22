@@ -8,13 +8,13 @@
 }
 
 body {
-    background: rgb(88, 70, 139);
+    background: rgb(63, 80, 175);
 }
 
 .wrapper {
     background: #fff;
     /* height: auto; */
-    width: 450px;
+    width: 350px;
     border-radius: 10px;
     position: absolute;
     top: 50vh;
@@ -32,7 +32,6 @@ body {
 }
 .wrapper header.active {
     cursor: move;
-    /* position: relative; */
     user-select: none;
 }
 
