@@ -5,11 +5,10 @@ function onDrag({movementX, movementY}) {
     let getStyle = window.getComputedStyle(wrapper);
     let left = parseInt(getStyle.left);
     let top = parseInt( getStyle.top);
-    // console.log(typeof left,typeof top);
+    // console.log(left,typeof top);
     // console.log(e);
     wrapper.style.left = `${left + movementX}px`;
-    wrapper.style.top = `${left + movementY}px`;
-
+    wrapper.style.top = `${top + movementY}px`;
 }
 
 header.addEventListener("mousedown", () => {

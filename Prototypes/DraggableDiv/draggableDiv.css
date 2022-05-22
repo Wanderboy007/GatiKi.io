@@ -13,12 +13,12 @@ body {
 
 .wrapper {
     background: #fff;
-    height: auto;
+    /* height: auto; */
     width: 450px;
     border-radius: 10px;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 50vh;
+    left: 50vh;
     /* transform: translate(-50%, -50); */
 }
 
@@ -32,6 +32,7 @@ body {
 }
 .wrapper header.active {
     cursor: move;
+    /* position: relative; */
     user-select: none;
 }
 
